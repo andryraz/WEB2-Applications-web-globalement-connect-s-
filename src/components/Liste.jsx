@@ -1,3 +1,4 @@
+import Detail from './Detail';
 const apartments =  [
         {
           id: 1,
@@ -46,7 +47,8 @@ const Liste = () => {
                 {apartments.map(apart => (
                     <div key={apart.id} className="apart-item">
                         <img src={apart.picture} alt={apart.price} />
-                        <h3>{apart.price}</h3>
+                        <h3>Prix: {apart.price} Ariary</h3>
+                        <p>Details {<Detail />}</p>
                     </div>
                 ))}
             </div>
