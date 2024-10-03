@@ -46,8 +46,8 @@ return (
             {apartments.map(apart => (
                 <div key={apart.id} className="apart-item">
                     <img src={apart.picture} alt={apart.price} />
-                    <h3>{apart.price}</h3>
-                    <p>{apart.description}</p>
+                    <h3>Prix: {apart.price} Ariary</h3>
+                    <p>Description: {apart.description}</p>
                 </div>
             ))}
         </div>

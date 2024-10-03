@@ -48,7 +48,7 @@ const Liste = () => {
                     <div key={apart.id} className="apart-item">
                         <img src={apart.picture} alt={apart.price} />
                         <h3>Prix: {apart.price} Ariary</h3>
-                        <p>Details {<Detail />}</p>
+                        <p>Details: {<Detail />}</p>
                     </div>
                 ))}
             </div>
